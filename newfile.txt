@@ -1,0 +1,6 @@
+We have successfully created a file.
+We will now write into the file using file handling.
+The 'writelines()' method writes multiple lines into the file
+It takes a list of strings as an input.
+It does not include line breaks so we will add it manually.
+This is an additional line of text wich is appended into the file using append mode.newfile.txt
