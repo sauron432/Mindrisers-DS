@@ -1,4 +1,5 @@
 import numpy as np
+import random
 a = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 b = np.array([[1, 2, 3, 4, 5, 6, 7, 8],
               [1, 2, 3, 4, 5, 6, 78 ,9]])
@@ -63,6 +64,8 @@ print("\nTHIS IS PART 5:\n")
 arr1 = np.arange(0,18).reshape(3,6)
 arr2 = np.arange(30,48).reshape(3,6)
 
+print(np.linspace(1,10,6))
+
 print(arr1)
 print(arr2)
 print(arr2+arr1)
@@ -72,3 +75,5 @@ print(np.subtract(arr2,arr1))
 print(arr2*arr1)
 # print(arr2@arr1)
 # print(arr2/arr1)
+print()
+print(np.random.randint(1,51,10))
